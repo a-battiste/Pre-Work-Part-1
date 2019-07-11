@@ -124,6 +124,7 @@ grid-template-columns: 105px 105px;
 grid-template-rows: 40px;
 justify-content: center;
 grid-gap: 15px;
+margin-bottom: 5px;
 }
 
 .donation-amount {
@@ -149,6 +150,13 @@ grid-gap: 15px;
 	font-size: 14px;
 }
 
-a {
-	margin: 10px 0 30px 20px;
+#why {
+	color: #20A1D4;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-weight: normal;
+	display: block;
+	margin-left: -145px;
+	padding-bottom: 10px;
 }
