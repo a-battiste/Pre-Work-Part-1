@@ -118,11 +118,37 @@ p {
 	color: #EF5F3C;
 }
 
-.save-share-buttons {
-	display: grid;
+.amount-give-buttons {
+display: grid;
+grid-template-columns: 105px 105px;
+grid-template-rows: 40px;
+justify-content: center;
+grid-gap: 15px;
 }
 
-.amount {
-	width: 95px;
-	margin-left: 20px;
+.donation-amount {
+	width: 105px;
+	height: 40px;
+	border-style: solid;
+	border-color: #D3D3D3;
+	border-radius: 3px;
+	border-width: 1px;
+	font-size: 16px;
+	font-weight:600;
+}
+
+.give-button {
+	width: 105px;
+	height: 40px;
+	border-style: none;
+	border-radius: 3px;
+	background-color: #1CBC2C;
+	color: #ffffff;
+	font-weight:600;
+	letter-spacing: 0.5px;
+	font-size: 14px;
+}
+
+a {
+	margin: 10px 0 30px 20px;
 }
